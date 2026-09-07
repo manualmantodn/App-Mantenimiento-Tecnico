@@ -5,6 +5,6 @@
 // ======================================================
 
 window.SUPABASE_CONFIG = {
-    url: "vfhzkgwrfdmyvmhtryzy",
+    url: "https://vfhzkgwrfdmyvmhtryzy.supabase.co",
     key: "sb_publishable_fTBX8juU6dC2VtGarfOtTg_6_Sn1xIV"
 };
