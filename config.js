@@ -5,6 +5,6 @@
 // ======================================================
 
 window.SUPABASE_CONFIG = {
-    url: "PEGA_AQUI_TU_PROJECT_URL",
-    key: "PEGA_AQUI_TU_PUBLISHABLE_KEY"
+    url: "vfhzkgwrfdmyvmhtryzy",
+    key: "sb_publishable_fTBX8juU6dC2VtGarfOtTg_6_Sn1xIV"
 };
