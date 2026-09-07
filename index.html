@@ -20,5 +20,15 @@
 <main><section id="home"></section><section id="detail" class="hidden"></section><section id="gallery" class="hidden"></section></main>
 <nav><button data-nav="home">⌂<span>Inicio</span></button><button data-nav="equipment">▦<span>Equipos</span></button><button data-nav="gallery">▧<span>Galería</span></button><button data-nav="safety">⚠<span>Seguridad</span></button></nav></div>
 <div id="modal" class="modal hidden"><div class="modalCard"><button class="close">×</button><img id="modalImg" alt="Imagen de referencia"><p id="modalCap"></p></div></div>
-<script src="app.js"></script><script>if("serviceWorker"in navigator)navigator.serviceWorker.register("sw.js").catch(console.error);</script>
-</body></html>
+<script src="config.js"></script>
+<script type="module" src="supabase.js"></script>
+<script type="module" src="app.js"></script>
+
+<script>
+if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("sw.js").catch(console.error);
+}
+</script>
+
+</body>
+</html>
